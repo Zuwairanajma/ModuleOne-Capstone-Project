@@ -148,6 +148,7 @@ ul li a {
   margin-top: 30px;
   text-align: center;
   font-size: 18px;
+  width: 375px;
 }
 
 .begin-about p {
@@ -272,6 +273,8 @@ ul li a {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  width: 375px;
+  flex-wrap: wrap;
 }
 
 .spons img {
@@ -282,7 +285,7 @@ ul li a {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 50px;
   padding: 40px;
 }
@@ -293,15 +296,16 @@ footer {
   grid-template-columns: 100%;
   grid-template-rows: 200px 200px;
   padding: 0 20px;
+  width: 375px;
 }
 
 .exhibit-img {
-  background-image: url('./images/collage-exhibit.jpg');
+  background-image: url('images/collage-exhibit.jpg');
   background-size: cover;
 }
 
 .exhibit-img1 {
-  background-image: url('./images/collage-exhibit2.jpg');
+  background-image: url('images/collage-exhibit2.jpg');
   background-size: cover;
 }
 
