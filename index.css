@@ -1,3 +1,16 @@
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --color-grey: #eee;
+  --color-dark-grey: #222831;
+  --heading-font-family: 'Cocogoose', sans-serif;
+  --main-font-family: 'Lato', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -575,6 +588,10 @@ footer {
   .program {
     display: flex;
     flex-direction: row;
+  }
+
+  .icon-image{
+    margin-left: 0;
   }
 
   .introduction .intro-text {
