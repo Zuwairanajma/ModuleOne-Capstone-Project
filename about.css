@@ -26,7 +26,9 @@ body {
 header {
   height: 90px;
   width: 100%;
-  background: #2e2e2e;
+  background: url('/images/mobile-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: fixed;
   right: 1px;
 }
@@ -35,7 +37,7 @@ header .fa-solid {
   position: fixed;
   margin-top: 30px;
   font-size: 40px;
-  color: #fff;
+  color: #272a31;
   cursor: pointer;
   margin-left: 30px;
 }
@@ -45,7 +47,9 @@ header .fa-solid {
 }
 
 .sub-header {
-  background: #2e2e2e;
+  background: url('/images/mobile-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: none;
 }
@@ -86,14 +90,14 @@ nav ul li {
 
 ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #272a31;
   font-size: 25px;
 }
 
 .fa-xmark {
   display: block;
   position: absolute;
-  color: #fff;
+  color: #272a31;
   font-size: 45px;
   top: 1px;
   right: 50px;
