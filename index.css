@@ -241,6 +241,7 @@ ul li a {
   align-items: center;
   gap: 5px;
   width: 375px;
+
   /* width: 100%; */
   background: rgba(186, 167, 167, 0.1);
   padding: 15px;
@@ -590,7 +591,7 @@ footer {
     flex-direction: row;
   }
 
-  .icon-image{
+  .icon-image {
     margin-left: 0;
   }
 

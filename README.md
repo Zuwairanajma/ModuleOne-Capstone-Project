@@ -84,7 +84,8 @@ Clone this repository to your desired folder:
 
 
 > Fork this repo
-> git clone git@github.com/Zuwairanajma/Portfolio-Projects.git
+> git clone git@github.com/Zuwairanajma/ModuleOne-Capstone-Project
+.git
 
 ### Prerequisites
 
