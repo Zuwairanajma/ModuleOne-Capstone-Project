@@ -137,6 +137,7 @@ This project was deployed using github pages, refer to the live demo for deploye
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **More pages**
 - [ ] **Functionalities**
 - [ ] **Improved UI design**
 - [ ] **Enhance Designs for all screen sizes and other media queries such as "print**
