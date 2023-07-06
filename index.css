@@ -12,7 +12,7 @@ body {
 }
 
 .begin {
-  background-image: url(../images/mobile-background.png);
+  background-image: url(./images/mobile-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 10px;
@@ -146,7 +146,7 @@ ul li a {
   padding-bottom: 10px;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: url(../images/text_bg.jpeg);
+  background-image: url(/images/text_bg.jpeg);
 }
 
 .intro-heading p {
@@ -166,7 +166,7 @@ ul li a {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: url(../images/main-background-icon.PNG);
+  background: url(/images/main-background-icon.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -212,6 +212,7 @@ ul li a {
   background-color: #ec5242;
   color: #fff;
   font-size: 22px;
+  width: 375px;
 }
 
 .img-holder .bg {
@@ -228,7 +229,8 @@ ul li a {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  width: 100%;
+  width: 375px;
+  /* width: 100%; */
   background: rgba(186, 167, 167, 0.1);
   padding: 15px;
   height: 150px;
@@ -286,7 +288,7 @@ ul li a {
   margin-left: 30px;
 }
 
-.speakers:nth-child(1n+3) {
+.speakers:nth-child(n+3) {
   display: none;
 }
 
@@ -400,7 +402,7 @@ footer {
   padding: 10px 10px;
 }
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   * {
     padding: 0;
     margin: 0;
@@ -544,7 +546,7 @@ footer {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 150px;
-    background: url(../images/desktop-background.png);
+    background: url(/images/desktop-background.png);
     background-repeat: no-repeat;
   }
 
@@ -563,7 +565,7 @@ footer {
     font-weight: 700;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: url(../images/text_bg.jpeg);
+    background-image: url(/images/text_bg.jpeg);
   }
 
   .main-program hr {
@@ -614,7 +616,7 @@ footer {
     padding: 10px 5px;
     font-size: 14px;
     color: #fff;
-  } */
+  }
 
   .program button {
     display: none;
